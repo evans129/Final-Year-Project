@@ -1,5 +1,5 @@
 import "./FooterStyle.css"
-import  {FaHome,FaPhone,FaMailBulk,FaLinkedin,FaGithub} from "react-icons/fa";
+import  {FaHome,FaLinkedin,FaGithub} from "react-icons/fa";
 
 import React from 'react'
 
@@ -11,22 +11,10 @@ const Footer = () => {
         <div className="location">
             <FaHome size={20} style={{color:"white",marginRight: "2rem"}}></FaHome>
             <div>
-                <p>[removed]</p>
                 <p>RANCHI</p>
+                <p>INDIA</p>
             </div>
         </div>
-        <h4> 
-        <div className="phone">
-        <FaPhone size={20} style={{color:"white",marginRight: "2rem"}}></FaPhone>
-       [phone removed]
-        </div>
-        </h4>
-        <h4> 
-        <div className="email">
-        <FaMailBulk size={20} style={{color:"white",marginRight: "2rem"}}></FaMailBulk>
-       [email removed]
-        </div>
-        </h4>
         </div>
         <div className="right">
             <h4>
